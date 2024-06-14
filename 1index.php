@@ -57,7 +57,7 @@
 								<h3 class="slide-subtitle"><b>"Real Hasta La Muerte Brrr"</b></h3>
 								<p class="slide-desc"> <br> </p>
 
-								<a href="#" class="button cut-corner">Read More</a>
+								
 							</div>
 						</li>
 						<li class="lazy-bg" data-background="JixerDaude/popsmoke.png">
@@ -66,7 +66,7 @@
 									<h3 class="slide-subtitle"><b>"The WOO"</b></h3>
 									<p class="slide-desc"> <br> </p>
 
-									<a href="#" class="button cut-corner">Read More</a>
+									
 							</div>
 						</li>
 						<li class="lazy-bg" data-background="JixerDaude/kiddkeo.png">
@@ -75,7 +75,7 @@
 									<h3 class="slide-subtitle"><b>"Welcome to Rockport"</b></h3>
 									<p class="slide-desc"> <br> </p>
 
-									<a href="#" class="button cut-corner">Read More</a>
+							
 							</div>
 						</li>
 					</ul>

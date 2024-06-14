@@ -196,7 +196,7 @@
 				if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['valcantante'])) {
 
 					$cantanteSelect= $conn->real_escape_string($_POST['valcantante']);
-					$sql = "SELECT usuario, cantante, valor, comentario FROM valoraciones WHERE cantante = '$cantanteSelect'";
+					$sql = "SELECT cantante, valor, comentario FROM valoraciones WHERE cantante = '$cantanteSelect'";
 					$result = $conn->query($sql);
 
 					if ($result->num_rows > 0) {

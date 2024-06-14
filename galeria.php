@@ -13,7 +13,7 @@
 
 		<!-- CSS PRINCIPAL -->
 		<link rel="stylesheet" href="style.css">
-	
+		<link rel="stylesheet" href="cssJD.css">
 
 	</head>
 
