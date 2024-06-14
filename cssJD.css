@@ -1,0 +1,240 @@
+/* Buscadore del menu de cantantes */
+
+#buscador {
+    color: orangered;
+    border-color: rgb(183, 52, 4); 
+    width: 285px;
+    height: 35px;
+    background-color: rgba(66, 65, 65, 0.583);
+    border-radius: 5px;
+}
+
+/* Fotos */
+
+/*Foto que aparece Genero Urbano escrito en naranja, abajo del todo de la pagina principal (212 1index.php) */
+
+.foto3-image {
+    opacity: 0.5; /* Valor entre 0 (completamente transparente) y 1 (completamente opaco)*/
+    border-radius: 10px;
+    border: 2px solid rgb(164, 47, 4);
+    width: 412px;
+    height: 312px;
+}
+
+.foto3-image {
+    opacity: 0.5; /* Valor entre 0 (completamente transparente) y 1 (completamente opaco)*/
+    border-radius: 10px;
+    border: 2px solid rgb(164, 47, 4);
+    width: 412px;
+    height: 312px;
+}
+
+
+.evento-image {
+    width: 155px;
+    height: 155px;
+    border: solid 2px  rgb(255, 81, 0);
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+/* Tipo de letra del cuadrado de Eventos */
+
+.mes {
+    font-size: 10px;
+    font-size: 0.775em;
+    text-transform: uppercase;
+}
+
+.centrado{
+    text-align: center;
+}
+
+/* Fotos de "Recomendaciones" (88,96,104, cantantes.php)*/
+
+.cover {
+    border: 2px solid rgb(164, 47, 4);
+    border-radius: 5px;
+}
+
+.reimagen {
+    height: 125px;
+    width: 125px;
+}
+
+#enpericao {
+    border: 2px solid rgba(205, 55, 0, 0.552);
+    border-radius: 5px;
+}
+
+.fotico {
+    width: 25px;
+    height: 25px;
+}
+
+#table-can {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+th, td {
+    padding: 10px; 
+    text-align: left;
+}
+
+.canciones {
+    height: 40px; 
+    width: 40px; 
+}
+
+/* Botones en forma de estrella */
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+}
+.rating > input {
+    display: none;
+}
+.rating > label {
+    display: inline-block;
+    padding: 5px;
+    font-size: 50px;
+    color: #ccc;
+    cursor: pointer;
+}
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input:checked ~ label {
+    color: orangered;
+}
+
+
+/*Comentario*/
+.comt{
+    background-color: rgba(70, 70, 70, 0.83);
+    border-radius: 3px;
+    border: solid grey 2px;
+    width: 600px;
+    height: 55px;
+    color:#ccc;
+}
+
+.valora {
+    background-color: rgb(43, 41, 41);
+    border-radius: 3px;
+    border: orangered 2px solid;
+    width: 220px;
+    height: 65px;
+    font-size: 35px; 
+    color: white; 
+    font-weight: bold; 
+}
+
+.imgG {
+    width: 212px;
+    height: 212px;
+}
+
+.selcantantes {
+    background-color: #858585; 
+    color: #020202;  
+    border: 1px solid #858585; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 170px;
+  }
+
+  /* Para cambiar el color de fondo de las opciones al pasar el ratón */
+  
+  .selcantantes option {
+    background-color: #858585;
+    color: #333;
+    border: gray solid 12px;
+  }
+
+  .selcantantes option:hover {
+    background-color: #ff0000cc;
+    color: #000;
+  }
+
+  /* Agregar una pequeña flecha hacia abajo personalizada */
+  .selcantantes {
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg"><path d="M 70,107 0,37 H 140 Z" fill="black"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 10px 10px;
+}
+
+.env{
+    background-color: #858585;
+    border-radius: 3px;
+    border: rgb(151, 151, 151) solid 2px;
+    color: rgb(0, 0, 0);
+    width: 115px;
+}
+
+/* Tablas */
+
+.table-c {
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid rgb(164, 47, 4);
+    opacity: 0.85;
+    
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    
+}
+th {
+    background-color: #333;
+    color:rgb(163, 48, 6)
+}
+tr:nth-child(even) {
+    background-color: #222;
+}
+tr:nth-child(odd) {
+    background-color: #1b1b1b;
+}
+.img-canciones {
+    height: 60px; /* Reduce image size */
+    width: 60px; /* Reduce image size */
+    border-radius: 3px;
+    border: #555555 solid 1.3px;
+}
+
+.id {
+    color:rgb(163, 48, 6)
+}
+
+.star-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ffcc00;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.star-button:hover {
+    transform: scale(1.1);
+}
